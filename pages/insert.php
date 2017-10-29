@@ -28,3 +28,4 @@ while($extract = mysqli_fetch_array($result1)) {
                                     </div>
                                 </li>';
 }
+?>

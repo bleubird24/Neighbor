@@ -20,7 +20,7 @@
     <link href="../css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 	<!-- Calendar -->
     <link href="../css/style.css" rel="stylesheet">
@@ -31,11 +31,12 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
     <script
 		  src="http://code.jquery.com/jquery-2.2.4.min.js"
 		  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
 		  crossorigin="anonymous"></script>
-
+    
 	<script>function submitChat() {
 		var uname      = $("#btn-input-name")//'User 1';
         var msgElement = $("#btn-input");
@@ -55,7 +56,7 @@
 			}
 		}
 		
-		xmlhttp.open('GET','insert.php?uname='+user+'&msg='+msg,true);
+		 xmlhttp.open('GET','insert.php?uname='+user+'&msg='+msg,true);
 		xmlhttp.send();
 
 	}
@@ -65,9 +66,9 @@
 			cache: false
 		});
 		setInterval( function(){ $('#chatlogs').load('logs.php'); }, 2000 );
-	});
-
+	}); 
 	</script>
+    
 
 </head>
 

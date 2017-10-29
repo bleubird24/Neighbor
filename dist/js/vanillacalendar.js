@@ -65,6 +65,7 @@ var vanillacalendar = {
     for (var i = 0; i < this.activeDates.length; i++) {
       this.activeDates[i].addEventListener('click', function (event) {
         var picked = document.querySelectorAll('[data-calendar-label="picked"]')[0]
+        Call Joe
         picked.innerHTML = this.dataset.calendarDate
         _this.removeActiveClass()
         this.classList.add('cal__date--selected')
