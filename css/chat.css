@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.uName {
+	color:#00F;
+	font-weight:bold;
+	font-size: 15px
+}
+
+.msg{
+	color:390;
+	font-size: 15px;
+}
+
+.button {
+	text-align: center;
+	background-color: #00F;
+	border-width: 2 px;
+	border-style: solid;
+	border-color: #000;
+	color: #FFF;
+	padding-left: 10 px;
+	padding-right: 10 px;
+	text-decoration: none;
+}
