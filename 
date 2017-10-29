@@ -1,0 +1,9 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	renamed:    js/sb-admin-2.js -> startbootstrap-sb-admin-2-gh-pages/js/sb-admin-2.js
+directory changes	renamed:    js/vanillacalendar.js -> startbootstrap-sb-admin-2-gh-pages/js/vanillacalendar.js
